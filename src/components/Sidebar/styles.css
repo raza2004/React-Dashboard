@@ -6,11 +6,13 @@
     display: flex;
     justify-content: center;
     position: sticky;
-    background-image: linear-gradient(#015C92, #2D83B5, #89CCF6);
+    background-color:rgb(0, 248, 0);
+    box-shadow: 1px 1px 2px 1px gray;
 }
 .sidebar-logo-container {
     display: 'flex';
     align-items: center;
+    width: 120%;
 }
 .sidebar-logo-container img {
     width: 50%;
@@ -30,7 +32,7 @@
     padding: 1.5em;
     padding-left: 2em;
     display: flex;
-    color: #FFFFFF;
+    color: #ffffff;
     list-style: none;
     text-decoration: none;
     align-items: center;
@@ -38,18 +40,18 @@
     cursor: pointer;
 }
 .sidebar-item:hover {
-    background-color: #004B77;
+    background-color: #3fdb59;
 }
 .sidebar-item-active {
     padding: 1.5em;
     padding-left: 2em;
     display: flex;
-    color: #FFFFFF;
+    color: #ffffff;
     list-style: none;
     text-decoration: none;
     align-items: center;
     justify-content: flex-start;
-    background-color: #004B77;
+    background-color: #1dda65;
     cursor: pointer;
 }
 .sidebar-item-icon {

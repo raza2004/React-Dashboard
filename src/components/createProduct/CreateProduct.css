@@ -1,0 +1,10 @@
+.add-product{
+    grid-row: auto;
+    align-items: center;
+    justify-content: center;
+}
+.submit1{
+    width: 30% !important;
+    background-color: rgb(5, 94, 64) !important;
+    padding: 1% !important;
+}
